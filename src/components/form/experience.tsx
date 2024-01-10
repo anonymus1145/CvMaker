@@ -7,8 +7,7 @@ import { ItemForm } from "../ui/imputForm";
 export default function Experience() {
 
   const [items, setItems] = useState<ReactElement[]>([]);
-  const handleButtonClick = (event: any) => {
-    event.preventDefault();
+  const handleButtonClick = () => {
     setItems([...items, <ItemForm text1="Company Name" text2="Position in the Company" />]);
   };
 

@@ -7,8 +7,7 @@ import { ItemForm } from "../ui/imputForm";
 export default function Education() {
 
     const [items, setItems] = useState<ReactElement[]>([]);
-    const handleButtonClick = (event: any) => {
-      event.preventDefault();
+    const handleButtonClick = () => {
       setItems([...items, <ItemForm  text1="School Name" text2="Field of Study"/>]);
     };
   

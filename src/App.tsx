@@ -4,6 +4,7 @@ import { GeneralInfo} from "./components/form/info";
 import Experience from "./components/form/experience";
 import Education from "./components/form/education";
 import Skills from "./components/form/skills";
+import { Button } from "./components/ui/button";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Education />
         <Skills />
       </form>
+      <Button text="Generate Resume" typeOf="submit" handleClick={() => window.print()}/>
     </div>
   );
 };

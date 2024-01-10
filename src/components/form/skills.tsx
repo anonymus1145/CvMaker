@@ -6,8 +6,7 @@ export default function Skills() {
 
     const [items, setItems] = useState<React.ReactElement[]>([]);
 
-    const onClick = (event: any) => {
-        event.preventDefault();
+    const onClick = () => {
         const userInput = window.prompt("Enter Skill: ");
         setItems([...items, <li className="mx-2 my-2 text-sm text-black font-semibold">{userInput}</li>]);
     }
