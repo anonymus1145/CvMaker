@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "concurrently \"esbuild src/App.tsx --bundle --minify --sourcemap --outfile=dist/bundle.js\" \"tailwindcss -i ./src/style.css  -o ./dist/output.css\""
+    "build": "concurrently \"esbuild src/App.tsx --bundle --minify --sourcemap --outfile=dist/bundle.js\" \"tailwindcss -i ./src/assets/style.css  -o ./dist/output.css\""
   },
   "keywords": [],
   "author": "",
