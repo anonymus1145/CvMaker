@@ -42,7 +42,7 @@ npm install
 npm start
 ```
 
-# Open your web browser and visit http://localhost:3000.
+### Open your web browser and visit http://localhost:3000.
 
 ## Contributing
 
@@ -56,4 +56,4 @@ We welcome contributions to improve the Resume Builder project. Follow these ste
 
 ## License
 
-# This project is licensed under the MIT License.
+### This project is licensed under the MIT License.
